@@ -77,6 +77,35 @@
     
 }
 /*end header*/
+/*responcive header*/
+@media screen and (max-width: 700px) {
+    #head{
+        display: block;
+    }
+    .leftHeadDiv{
+        width: 100%;
+    }
+    .leftHeadDiv .heaerTitle{
+        font-size: 40px;
+        letter-spacing: normal;
+        text-align: center;
+    }
+    .leftHeadDiv .subTitle{
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 30px;
+    }
+    .posJob{
+        display: none;
+    }
+    .link{
+        padding: 10px;
+    }
+    .rightHeadDiv{
+        width: 100%;
+    }
+}
+/*responcive header*/
 /*start asid*/
 #asid{
     display: flex;
@@ -103,6 +132,29 @@
     color: snow;
 }
 /*end asid*/
+/*responcive Aside*/
+@media screen and (max-width: 700px) {
+    #asid{
+        display: block;
+    }
+    .leftAside{
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .rightAsid{
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 28px;
+    }
+    .asidPera{
+        padding-bottom: 20px;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+    }
+}
+/*responcive Aside*/
 /*start section*/
 #card{
     display: flex;
@@ -157,6 +209,21 @@
 .card2 .carPera{
     padding: 20px 0 0 10px;
 }
+/*end section*/
+/*responcive section*/
+@media screen and (max-width: 700px) {
+    #card{
+        display: block;
+    }
+    .card1{
+        width: 90%;
+    }
+    .card2{
+        width: 90%;
+    }
+    
+}
+/*responcive section*/
 #footer{
     background-color: black;
     color: #fff;
@@ -166,4 +233,11 @@
 li{
     display: inline;
     padding: 10px;
+}
+@media screen and (max-width: 700px) {
+    .expert{
+        display: flex;
+        justify-content:space-around;
+        padding: 0;
+    }    
 }

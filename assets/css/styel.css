@@ -78,6 +78,33 @@
 }
 /*end header*/
 /*responcive header*/
+@media screen and (max-width: 992px){
+    #head{
+        display: flex;
+    }
+    .leftHeadDiv{
+        width: 100%;
+    }
+    .leftHeadDiv .heaerTitle{
+        font-size: 40px;
+        letter-spacing: normal;
+        text-align: center;
+    }
+    .leftHeadDiv .subTitle{
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 30px;
+    }
+    .posJob{
+        display: none;
+    }
+    .link{
+        padding: 10px;
+    }
+    .rightHeadDiv{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 700px) {
     #head{
         display: block;
@@ -133,6 +160,27 @@
 }
 /*end asid*/
 /*responcive Aside*/
+@media screen and (max-width: 992px) {
+    #asid{
+        display: flex;
+    }
+    .leftAside{
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .rightAsid{
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 28px;
+    }
+    .asidPera{
+        padding-top: 110px;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 700px) {
     #asid{
         display: block;
@@ -152,6 +200,11 @@
     .link{
         display: flex;
         justify-content: center;
+    }
+    .asidPosImage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 /*responcive Aside*/
@@ -233,6 +286,16 @@
 li{
     display: inline;
     padding: 10px;
+}
+@media screen and (max-width: 992px) {
+    #footer{
+        padding-top: 60px;
+    }
+    .expert{
+        display: flex;
+        justify-content:space-around;
+        padding: 0;
+    }    
 }
 @media screen and (max-width: 700px) {
     .expert{

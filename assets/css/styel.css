@@ -12,7 +12,7 @@
 }
 #head{
     display: flex;
-    background-image: url(/assets/images/section.jpg);
+    background-image: url("../images/section.jpg");
     background-repeat: no-repeat;
     
 }
@@ -136,7 +136,7 @@
 /*start asid*/
 #asid{
     display: flex;
-    background-image: url(/assets/images/download.jpg);
+    background-image: url("../images/download.jpg");
     background-repeat: no-repeat;
 }
 .leftAside{
@@ -211,7 +211,7 @@
 /*start section*/
 #card{
     display: flex;
-    background-image: url(/assets/images/wp.jpg);
+    background-image: url("(../images/wp.jpg"));
     background-repeat: no-repeat;
 }
 .card1{
